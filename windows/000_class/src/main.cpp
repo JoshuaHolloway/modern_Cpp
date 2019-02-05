@@ -2,14 +2,8 @@
 
 int main()
 {
-	Car car(5);
-	car.FillFuel(5);
-	car.Accelerate();
-	car.Accelerate();
-	car.Accelerate();
+	const Car car(5);
 	car.Dashboard();
 
-
-	
 	return 0;
 }

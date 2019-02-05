@@ -32,7 +32,7 @@ void Car::Brake()
 	speed = 0;
 }
 
-void Car::Dashboard()
+void Car::Dashboard() const
 {
 	std::cout << "Fuel: " << fuel << "\n";
 	std::cout << "Press enter to continue...\n>";

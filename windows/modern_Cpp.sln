@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modern_Cpp", "modern_Cpp\modern_Cpp.vcxproj", "{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000_class", "000_class\000_class.vcxproj", "{06220CA6-97C8-42E7-AE57-D3EB43D2EDE8}"
 EndProject
 Global
@@ -15,14 +13,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Debug|x64.ActiveCfg = Debug|x64
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Debug|x64.Build.0 = Debug|x64
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Debug|x86.ActiveCfg = Debug|Win32
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Debug|x86.Build.0 = Debug|Win32
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Release|x64.ActiveCfg = Release|x64
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Release|x64.Build.0 = Release|x64
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Release|x86.ActiveCfg = Release|Win32
-		{36080F6B-1ED4-4984-B6C8-CFCC0AD77AFF}.Release|x86.Build.0 = Release|Win32
 		{06220CA6-97C8-42E7-AE57-D3EB43D2EDE8}.Debug|x64.ActiveCfg = Debug|x64
 		{06220CA6-97C8-42E7-AE57-D3EB43D2EDE8}.Debug|x64.Build.0 = Debug|x64
 		{06220CA6-97C8-42E7-AE57-D3EB43D2EDE8}.Debug|x86.ActiveCfg = Debug|Win32

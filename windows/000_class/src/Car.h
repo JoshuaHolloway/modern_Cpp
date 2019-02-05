@@ -10,7 +10,10 @@ public:
 	void Accelerate();
 	void Brake();
 	void AddPassengers(int count);
-	void Dashboard();
+	void Dashboard() const;
+
+	// All member functions that do not modify the state of the object
+	// should be qualified with const
 
 private:
 	float fuel{0.f};
