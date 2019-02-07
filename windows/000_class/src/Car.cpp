@@ -1,18 +1,36 @@
 #include "Car.h"
 #include <iostream>
 
+int Car::totalCount = 0;
+
+void Car::increment_totalCount() const
+{
+	// Use the static member variable to keep count of the
+	// total number of objects created of this class
+	totalCount++;
+}
+
+void Car::ShowCount()
+{
+	std::cout << "Total number of cars: " << totalCount << "\n";
+}
+
 Car::Car()
 {
+	increment_totalCount();
 	std::cout << "Car()\n";
 }
 
-Car::Car(float amount)
+Car::Car(float fuel)
 {
-	fuel = amount;
+	increment_totalCount();
+	this->fuel = fuel;
 }
 
 Car::~Car()
 {
+	totalCount--;
+
 	std::cout << "~Car()\n";
 }
 
@@ -35,8 +53,6 @@ void Car::Brake()
 void Car::Dashboard() const
 {
 	std::cout << "Fuel: " << fuel << "\n";
-	std::cout << "Press enter to continue...\n>";
-	getchar();
 }
 
 void Foo(const Car &car)
