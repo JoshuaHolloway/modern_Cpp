@@ -4,6 +4,7 @@ class Car
 public:
 	Car();
 	Car(float amount);
+	Car(float amount, int passengers);
 	~Car();
 
 	void FillFuel(float amount);

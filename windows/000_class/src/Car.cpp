@@ -3,28 +3,29 @@
 
 int Car::totalCount = 0;
 
-void Car::increment_totalCount() const
-{
-	// Use the static member variable to keep count of the
-	// total number of objects created of this class
-	totalCount++;
-}
-
 void Car::ShowCount()
 {
 	std::cout << "Total number of cars: " << totalCount << "\n";
 }
 
-Car::Car()
+Car::Car() : Car(0) // Constructor delegation
 {
-	increment_totalCount();
 	std::cout << "Car()\n";
 }
 
-Car::Car(float fuel)
+Car::Car(float fuel) : Car(fuel, 0) // Constructor delegation
 {
-	increment_totalCount();
+	std::cout << "Car(fuel)\n";
+}
+
+Car::Car(float fuel, int passengers)
+{
+	std::cout << "Car(fuel, passengers)\n";
+
+	++totalCount;
 	this->fuel = fuel;
+	speed = 0;
+	passengers = 0;
 }
 
 Car::~Car()
