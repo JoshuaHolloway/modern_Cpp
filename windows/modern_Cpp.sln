@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000_class", "000_class\000_class.vcxproj", "{06220CA6-97C8-42E7-AE57-D3EB43D2EDE8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000_classes", "000_class\000_class.vcxproj", "{06220CA6-97C8-42E7-AE57-D3EB43D2EDE8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_copy_constructor", "001_copy_constructor\001_copy_constructor.vcxproj", "{8483A935-D094-4C87-96FE-17139E604179}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "700_stl", "700_stl\700_stl.vcxproj", "{90456E65-DF2E-407E-894F-1A2F1953BE36}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "901_higher_order_functions_functors", "901_higher_order_functions_functors\901_higher_order_functions_functors.vcxproj", "{C1F8849C-E128-4E6C-A12B-6BDAEB9CBC16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003_RValues", "003_RValues\003_RValues.vcxproj", "{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,14 @@ Global
 		{C1F8849C-E128-4E6C-A12B-6BDAEB9CBC16}.Release|x64.Build.0 = Release|x64
 		{C1F8849C-E128-4E6C-A12B-6BDAEB9CBC16}.Release|x86.ActiveCfg = Release|Win32
 		{C1F8849C-E128-4E6C-A12B-6BDAEB9CBC16}.Release|x86.Build.0 = Release|Win32
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Debug|x64.ActiveCfg = Debug|x64
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Debug|x64.Build.0 = Debug|x64
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Debug|x86.ActiveCfg = Debug|Win32
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Debug|x86.Build.0 = Debug|Win32
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Release|x64.ActiveCfg = Release|x64
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Release|x64.Build.0 = Release|x64
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Release|x86.ActiveCfg = Release|Win32
+		{2944C05D-8D64-47D2-8FB6-C24EB1DEDD77}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
