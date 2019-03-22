@@ -8,6 +8,9 @@ int main()
 	using std::cout;
 
 	vector<int> x{0, 1, 2, 3};
+	for (auto v : x)
+		cout << "x = " << v << "\n";
+	cout << "\n";
 
 
 	/// Example of LRU
