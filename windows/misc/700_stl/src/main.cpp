@@ -34,6 +34,30 @@ Min_Max_Struct f(std::vector<int> x)
 	return min_max;
 }
 // ------------------------------------------
+void update_lru(std::vector<int>& lru)
+{
+	auto min_max_struct = f(lru);
+	//cout << "min-element's index: " << Min_Max_Struct.idx << "\n";
+	//cout << "min-element's value:  " << Min_Max_Struct.val << "\n";
+	//cout << "max-element's index: " << max_struct.idx << "\n";
+	//cout << "max-element's value:  " << max_struct.val << "\n";
+
+	//std::cout << "Decrement all elements:\n";
+	for (auto& v : lru)
+		--v;
+	//for (auto v : x)
+	//	cout << "x = " << v << "\n";
+	//cout << "\n";
+
+	//std::cout << "Minimum element becomes maximum possible.\n";
+	lru[min_max_struct.min_idx] = min_max_struct.max_val;
+
+	std::cout << "After run:\n";
+	for (auto v : lru)
+		std::cout << "x = " << v << "\n";
+	std::cout << "\n";
+}
+// ------------------------------------------
 int main()
 {
 	using std::vector;
@@ -53,26 +77,7 @@ int main()
 
 	for (uint i = 0; i < x.size(); i++)
 	{
-		auto min_max_struct = f(x);
-		//cout << "min-element's index: " << Min_Max_Struct.idx << "\n";
-		//cout << "min-element's value:  " << Min_Max_Struct.val << "\n";
-		//cout << "max-element's index: " << max_struct.idx << "\n";
-		//cout << "max-element's value:  " << max_struct.val << "\n";
-
-		//std::cout << "Decrement all elements:\n";
-		for (auto& v : x)
-			--v;
-		//for (auto v : x)
-		//	cout << "x = " << v << "\n";
-		//cout << "\n";
-
-		//std::cout << "Minimum element becomes maximum possible.\n";
-		x[min_max_struct.min_idx] = min_max_struct.max_val;
-
-		std::cout << "After run-" << i << " final result:\n";
-		for (auto v : x)
-			cout << "x = " << v << "\n";
-		cout << "\n";
+		update_lru(x);
 	}
 
 	getchar();
