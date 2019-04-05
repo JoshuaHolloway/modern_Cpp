@@ -1,25 +1,21 @@
 #pragma once
 #include <string>
-class Account
-{
-public:
-	Account(const std::string& name, float balance);
-	~Account();
-
-	const std::string GetName() const;
-	float GetBalance() const;
-	int GetAccountNo() const;
-
-	void AccumulateInterest();
-	void Withdraw(float amount);
-	void Deposit(float amount);
-	float GetInterestRate() const;
-
-private:
+class Account {
 	std::string m_Name;
 	int m_AccNo;
-	static  int s_ANGenerator;
-
+	static int s_ANGenerator;
 protected:
 	float m_Balance;
+public:
+	Account(const std::string &name, float balance);
+	virtual ~Account();
+	const std::string GetName()const;
+	float GetBalance()const;
+	int GetAccountNo()const;
+
+	virtual void AccumulateInterest();
+	virtual void Withdraw(float amount);
+	void Deposit(float amount);
+	virtual float GetInterestRate()const;
 };
+

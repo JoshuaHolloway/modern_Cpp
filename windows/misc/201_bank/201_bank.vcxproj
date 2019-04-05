@@ -130,13 +130,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Checking.cpp" />
     <ClCompile Include="src\Savings.cpp" />
     <ClCompile Include="src\Account.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Transaction.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Checking.h" />
     <ClInclude Include="src\Savings.h" />
     <ClInclude Include="src\Account.h" />
+    <ClInclude Include="src\transaction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
