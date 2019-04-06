@@ -18,4 +18,3 @@ public:
 	void Deposit(float amount);
 	virtual float GetInterestRate()const;
 };
-
