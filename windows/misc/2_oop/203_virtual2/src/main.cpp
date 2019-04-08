@@ -40,6 +40,9 @@ int main()
 
 	// Pass in pointer to object of Derived-class
 	f(&y);
+	
+	const int CHUNK_SIZE = 512;
+	const int* const ptr  = &CHUNK_SIZE;
 
 	return 0;
 }
