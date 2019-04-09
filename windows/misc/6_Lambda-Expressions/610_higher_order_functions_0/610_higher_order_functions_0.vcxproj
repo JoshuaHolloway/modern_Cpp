@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{ffc7e425-0ca5-4374-aeeb-77e7fa825a20}</ProjectGuid>
-    <RootNamespace>_500_Templates</RootNamespace>
+    <ProjectGuid>{e1f90f07-1c76-4caf-ab9d-346c74a28a56}</ProjectGuid>
+    <RootNamespace>_610_higher_order_functions_0</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,20 +70,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -91,7 +91,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -100,7 +99,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -111,7 +109,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -126,7 +123,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -134,7 +130,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\500_Templates.cpp" />
+    <ClCompile Include="src\610_higher_order_functions_0.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\610_higher_order_functions_0.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
