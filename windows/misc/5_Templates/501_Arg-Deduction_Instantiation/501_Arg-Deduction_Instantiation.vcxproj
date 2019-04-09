@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8e56f2b5-6a54-41cb-a7dd-2ce971d7983f}</ProjectGuid>
-    <RootNamespace>_600_Function_Pointers</RootNamespace>
+    <ProjectGuid>{ef6a901a-b455-4778-b4a2-570907303ae0}</ProjectGuid>
+    <RootNamespace>_501_Arg_Deduction_Instantiation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -130,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\600_Function-Pointers.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

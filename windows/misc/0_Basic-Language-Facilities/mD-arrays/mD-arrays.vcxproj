@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8e56f2b5-6a54-41cb-a7dd-2ce971d7983f}</ProjectGuid>
-    <RootNamespace>_600_Function_Pointers</RootNamespace>
+    <ProjectGuid>{fb5c8524-090d-41e7-866d-bf2587292eb5}</ProjectGuid>
+    <RootNamespace>mD_arrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,20 +70,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\bin-int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\bin-int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\bin-int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\bin-int\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -130,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\600_Function-Pointers.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
