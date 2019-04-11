@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "600_Function-Pointers_3", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "603_Lambdas_2", "misc\6_Lambda-Expressions\603_Lambdas_2\603_Lambdas_2.vcxproj", "{60C6E1C4-F39A-41A5-8DE9-FCC94A38950A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "502_Explicit-Specialization", "misc\5_Templates\502_Explicit-Specialization\502_Explicit-Specialization.vcxproj", "{96C186E4-E94B-4DAB-839C-83288E96ED60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -277,6 +279,14 @@ Global
 		{60C6E1C4-F39A-41A5-8DE9-FCC94A38950A}.Release|x64.Build.0 = Release|x64
 		{60C6E1C4-F39A-41A5-8DE9-FCC94A38950A}.Release|x86.ActiveCfg = Release|Win32
 		{60C6E1C4-F39A-41A5-8DE9-FCC94A38950A}.Release|x86.Build.0 = Release|Win32
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Debug|x64.ActiveCfg = Debug|x64
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Debug|x64.Build.0 = Debug|x64
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Debug|x86.ActiveCfg = Debug|Win32
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Debug|x86.Build.0 = Debug|Win32
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Release|x64.ActiveCfg = Release|x64
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Release|x64.Build.0 = Release|x64
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Release|x86.ActiveCfg = Release|Win32
+		{96C186E4-E94B-4DAB-839C-83288E96ED60}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,6 +325,7 @@ Global
 		{255E2DB4-03D7-4F91-AF1D-194C01C4FCCF} = {1A3DF828-0BA2-4731-B6F6-ED6E6F934C48}
 		{F770B79F-74B7-441E-A20E-7D2BF7505E23} = {D0256A82-D3EB-4F17-9215-64B110291943}
 		{60C6E1C4-F39A-41A5-8DE9-FCC94A38950A} = {D0256A82-D3EB-4F17-9215-64B110291943}
+		{96C186E4-E94B-4DAB-839C-83288E96ED60} = {C72DAD0D-5166-40F0-8B5B-B09F090EE8C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A81BC72-C5B8-475E-943A-7889CC8AE3D9}

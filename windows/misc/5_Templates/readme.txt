@@ -1,6 +1,6 @@
 500: Templates (Introduction to Templates)
 501: Arg-Deduction_Instantiation (Template Arguement Deduction and Instantiation)
-502: Explicity-Specialization
+502: Explicit-Specialization
 503: Non-Type_Template-Args
 504: Perfect-Forwarding
 505: Variadic-Templates
