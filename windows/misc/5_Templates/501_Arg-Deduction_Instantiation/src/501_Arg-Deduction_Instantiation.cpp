@@ -19,7 +19,7 @@ T1 max(T1 x, T2 y)
 	return x > y ? x : static_cast<T1>(y);
 }
 // - - - - - - - - - - - - - - - - - - - - - - - -
-/// Explicitly instantiate function template
+/// Explicitly-instantiate function template
 template char max(char x, char y);
 // - - - - - - - - - - - - - - - - - - - - - - - -
 auto main() -> int

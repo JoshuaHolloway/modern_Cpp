@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{96c186e4-e94b-4dab-839c-83288e96ed60}</ProjectGuid>
-    <RootNamespace>_502_Explicit_Specialization</RootNamespace>
+    <ProjectGuid>{591089b3-bf69-4e77-aeb9-6b25525faea8}</ProjectGuid>
+    <RootNamespace>_204_inheritance_1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,20 +70,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\5_Templates\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -130,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\502_Explicit-Specialization.cpp" />
+    <ClCompile Include="src\204_inheritance_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
