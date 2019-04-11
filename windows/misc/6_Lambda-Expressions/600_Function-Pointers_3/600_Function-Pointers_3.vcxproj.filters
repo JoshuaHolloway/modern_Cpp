@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\600_Function-Pointers_2.cpp">
+    <ClCompile Include="src\600_Function-Pointers_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
