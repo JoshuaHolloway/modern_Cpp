@@ -29,11 +29,11 @@ ostream& operator<<(ostream& stream, const Integer& integer)
 // -Therefore: 
 //		--a binary operator implemented as a member function
 //		  will require only one explicit arguement.
-//		--a unuary operator iwll not require any explicit arguements.
+//		--a unuary operator will not require any explicit arguements.
 //		e.g. [global-function]:
-//			Integer operator +(const Integer&, const Integer&)
+//			Integer operator +(const Integer& lhs, const Integer& rhs)
 //		e.g. [member-function]:
-//			Integer Integer::operator+(const Integer &)
+//			Integer Integer::operator+(const Integer&)
 //
 int main()
 {
@@ -49,6 +49,8 @@ int main()
 	int3++;
 	cout << int3 << endl << endl;
 
+	//int1 = int2;
+	//cout << int1;
 
 	return 0;
 }

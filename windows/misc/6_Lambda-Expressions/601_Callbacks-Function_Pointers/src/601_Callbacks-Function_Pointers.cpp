@@ -82,7 +82,6 @@ int main()
 	//  -Global-functions cannot have state.
 	//  -Solution (again) is Functors.
 
-	getchar();
 	return 0;
 }
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
