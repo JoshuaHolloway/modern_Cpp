@@ -49,8 +49,9 @@ int main()
 	int3++;
 	cout << int3 << endl << endl;
 
-	//int1 = int2;
-	//cout << int1;
+	/// Part-2: Assignment operator
+	int1 = int2;
+	cout << int1;
 
 	return 0;
 }

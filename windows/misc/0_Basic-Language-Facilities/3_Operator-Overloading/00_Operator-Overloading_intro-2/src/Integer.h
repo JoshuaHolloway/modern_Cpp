@@ -19,14 +19,13 @@ public:
 	//Move constructor
 	Integer(Integer &&obj);
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-	int GetValue()const;
+	int GetValue() const;
 	void SetValue(int value);
 	//~Integer();
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 	Integer operator+(const Integer& a) const
 	{
-		Integer temp;
-		*temp.m_pInt = *m_pInt + *a.m_pInt;
+		Integer temp(*m_pInt + *a.m_pInt);
 		return temp;
 	}
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -37,6 +36,25 @@ public:
 	bool operator+(const Integer& integer)
 	{
 		return *m_pInt == *integer.m_pInt;
+	}
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+	Integer operator=(const Integer& integer)
+	{
+		/// Step 0: Handle self-assignment
+		// -If we are not assignment to self, then perform assignment
+		if (this != &integer)
+		{
+			/// Step 1: Delete memory for existing object's value
+			// -Else, memory lean
+			delete m_pInt; // not-always used in declaration
+
+			/// Step 1: Deep-copy:
+			// -Allocate new memory and store new value
+			m_pInt = new int(*integer.m_pInt);
+		}
+
+		/// Step 2: Return current object
+		return *this;
 	}
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 	Integer& operator==(const Integer& integer)

@@ -6,3 +6,6 @@
 
 Directory-Path:
     C:\dev\modern_Cpp\modern_Cpp\windows\misc\0_Basic-Language-Facilities
+
+bin-directory-path
+    $(SolutionDir)misc\2_oop\$(ProjectName)\bin\$(Platform)-$(Configuration)\

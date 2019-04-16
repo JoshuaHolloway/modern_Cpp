@@ -1,21 +1,26 @@
 #include "Integer.h"
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+/// Default-Constructor
 Integer::Integer() {
 	std::cout << "Integer()" << std::endl;
 	m_pInt = new int(0);
 }
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+/// Parameterized-Constructor
 Integer::Integer(int value) {
 	std::cout << "Integer(int)" << std::endl;
 	m_pInt = new int(value);
 }
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - -
+/// Copy-Constructor
 Integer::Integer(const Integer & obj) {
 	std::cout << "Integer(const Integer&)" << std::endl;
 	m_pInt = new int(*obj.m_pInt);
 }
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Integer::Integer(Integer && obj) {
+/// Move-Constructor
+Integer::Integer(Integer && obj) 
+{
 	std::cout << "Integer(int&&)" << std::endl;
 	m_pInt = obj.m_pInt;
 	obj.m_pInt = nullptr;

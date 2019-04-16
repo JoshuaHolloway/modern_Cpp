@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{6d23ac78-8152-4ec8-8f6b-1fabaa58736a}</ProjectGuid>
-    <RootNamespace>_603_Lambdas</RootNamespace>
+    <ProjectGuid>{D78355F3-6023-4F43-A3FB-EF384D107619}</ProjectGuid>
+    <RootNamespace>My00static</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,37 +70,35 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)misc\6_Lambda-Expressions\$(ProjectName)\bin\int\$(Platform)-$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)misc\0_Basic-Language-Facilities\0_Basics\$(ProjectName)\bin\$(Platform)-$(Configuration)\</IntDir>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
-    </ClCompile>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -111,7 +109,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -126,7 +123,6 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -134,7 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\603_Lambdas.cpp" />
+    <ClCompile Include="src\00_static.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
