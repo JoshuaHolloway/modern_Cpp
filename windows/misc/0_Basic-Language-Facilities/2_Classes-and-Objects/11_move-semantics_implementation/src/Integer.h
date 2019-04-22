@@ -36,4 +36,11 @@ public:
 	{
 		delete data;
 	}
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	/// Overloaded add
+	Integer& operator+(const Integer& integer)
+	{
+		Integer temp(*integer.data);
+		return temp;
+	}
 };

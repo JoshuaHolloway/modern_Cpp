@@ -7,3 +7,5 @@
 //				then a copy of the object will be created when the function returns.
 //			---In this case, we can move the state from the source object into the target object.
 //			---This is what move semantic are.
+#include "Integer.h"
+//---------------------------------------------------------

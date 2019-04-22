@@ -134,7 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\101_abstract_class.cpp" />
     <ClCompile Include="src\Vector_container.cpp" />
   </ItemGroup>
   <ItemGroup>
